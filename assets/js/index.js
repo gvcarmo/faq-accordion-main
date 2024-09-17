@@ -11,11 +11,7 @@
 //   })
 // })
 
-const h2Ativado = document.querySelector(".ativado");
-
 const liAtivo = document.querySelectorAll(".item");
-
-const h2Atual = document.querySelectorAll(".resposta");
 
 liAtivo.forEach(function (item) {
     item.addEventListener("click", function () {
